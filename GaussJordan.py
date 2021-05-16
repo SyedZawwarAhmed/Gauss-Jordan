@@ -1,11 +1,11 @@
 main_list = [[0, 0, 0],[0, 0, 0]]
 print("First Equation:")
-main_list[0][0] = float(input("Enter co-effiecient of x:- "))
-main_list[0][1] = float(input("Enter co-effiecient of y:- "))
+main_list[0][0] = float(input("Enter co-efficient of x:- "))
+main_list[0][1] = float(input("Enter co-efficient of y:- "))
 main_list[0][2] = float(input("Enter constant:- "))
 print("Second Equation:")
-main_list[1][0] = float(input("Enter co-effiecient of x:- "))
-main_list[1][1] = float(input("Enter co-effiecient of y:- "))
+main_list[1][0] = float(input("Enter co-efficient of x:- "))
+main_list[1][1] = float(input("Enter co-efficient of y:- "))
 main_list[1][2] = float(input("Enter constant:- "))
 
 for i in range(len(main_list)): 
