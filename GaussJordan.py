@@ -9,9 +9,9 @@ main_list[1][1] = float(input("Enter co-efficient of y:- "))
 main_list[1][2] = float(input("Enter constant:- "))
 
 for i in range(len(main_list)): 
-    multiplicative_inverse = main_list[i][i]
+    multiplicative_inverse = 1/main_list[i][i]
     for j in range(len(main_list[i])):
-        main_list[i][j] *= (1/multiplicative_inverse)
+        main_list[i][j] *= multiplicative_inverse
 
     if i == 0:
         additive_inverse = main_list[i+1][i] * -1
